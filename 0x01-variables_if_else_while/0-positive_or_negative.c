@@ -1,10 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
+/* more headers goes there */
+#include <stdio.h>
+/* betty style doc for function main goes there */
 /**
- *main -program will assign a random number to the variable
- *more headers goes there
- * betty style doc for function main goes there
- *Return: 0 (success)
+ * main - main function
+ *
+ * Return: always 0
  */
 int main(void)
 {
