@@ -3,6 +3,7 @@
 
 /**
  *print_numbers - print the numbers from 0 to 9.
+ *Description: prints numbers.
  */
 
 void print_numbers(void)
