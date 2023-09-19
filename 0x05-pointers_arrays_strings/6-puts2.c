@@ -2,7 +2,7 @@
 
 /**
  *puts2 - rints every other character of a string
- *starting with the first 
+ *starting with the first
  *character, followed by a new line.
  *@str: character string
  */
@@ -19,11 +19,10 @@ void puts2(char *str)
 		y++;
 		m++;
 	}
-	t = m -1;
-	
+	t = m - 1;
 	for (x = 0; x <= t; x++)
 	{
-		if (x % 2 = 0)
+		if (x % 2 == 0)
 		{
 			_putchar(str[0]);
 		}
