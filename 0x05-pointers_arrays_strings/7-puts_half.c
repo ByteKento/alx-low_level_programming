@@ -6,14 +6,14 @@
  *Return: m(success)
  */
 
-int strlen(char *s)
+void puts_half(char *str)
 {
 	int m = 0;
 
 	while (*s != '\0')
 	{
 		m++;
-		s++;
+		str++;
 	}
 	return (m);
 }
