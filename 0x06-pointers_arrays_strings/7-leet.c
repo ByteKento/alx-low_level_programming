@@ -1,9 +1,11 @@
 #include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
- *lett - to encode as given string
- *@str: passed string
- *Return: Empty
+ *leet - to encode as given string
+ *@n: passed string
+ *Return:n(success)
  */
 
 char *leet(char *n)
@@ -15,7 +17,7 @@ char *leet(char *n)
 
 	for (i = 0; n[i] != '\0'; i++)
 	{
-		for (j = 0; c[j] != '\0'; j++)
+		for (j = 0; j < 10; j++)
 		{
 			if (n[i] == textchar[j])
 			{
@@ -23,4 +25,5 @@ char *leet(char *n)
 			}
 		}
 	}
+	return (n);
 }
